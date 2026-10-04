@@ -1,0 +1,3 @@
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I love this new technology.")
+'{"emotionPredictions":[{"emotion":{"anger":0.0076219896,"disgust":0.0022416345,"fear":0.0075591323,"joy":0.9708682,"sadness":0.046399187},"target":"","emotionMentions":[{"span":{"begin":0,"end":26,"text":"I love this new technology."},"emotion":{"anger":0.0076219896,"disgust":0.0022416345,"fear":0.0075591323,"joy":0.9708682,"sadness":0.046399187}}]}],"producerId":{"name":"Natural Language Processing Emotion Analysis Workflow","version":"0.0.1"}}'
